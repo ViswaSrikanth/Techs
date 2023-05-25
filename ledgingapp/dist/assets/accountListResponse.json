@@ -1,0 +1,19 @@
+{
+    "accounts": [
+        {
+            "account": "Cash",
+            "balance": "100000",
+            "description": "Cash account - current cash balance"
+        },
+        {
+            "account": "Citi Credit card",
+            "balance": "10000",
+            "description": "Current outstanding"
+        },
+        {
+            "account": "Amex Credit care",
+            "balance": "5000",
+            "description": "Current outstanding"
+        }
+    ]
+}
