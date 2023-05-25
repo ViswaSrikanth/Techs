@@ -1,0 +1,38 @@
+<div class="mainpanel-style">
+    <h3 class="heading-style"> {{ subtitle }} </h3>
+    <table>
+        <tr>
+            <th>Transaction Pirticulars</th>
+            <th>From a/c</th>
+            <th>To a/c</th>
+            <th>Amount</th>
+            <th>Remarks</th>
+        </tr>
+        <tr *ngFor="let transaction of transactions">
+            <td><input [(ngModel)]="transaction.transaction" type="text" name="transaction{{n}}"></td>
+            <td>
+                <select [(ngModel)]="transaction.from_acc" name="fromacc{{n}}">
+                    <option>Account 1</option>
+                </select>
+            </td>
+            <td>
+                <select [(ngModel)]="transaction.to_acc" name="fromacc{{n}}">
+                    <option>Account 2</option>
+                </select>
+            </td>
+            <td><input [(ngModel)]="transaction.amount" type="text" name="amount{{n}}"></td>
+            <td><input [(ngModel)]="transaction.description" type="text" name="description{{n}}"></td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="innertable">
+                <!--<table class="innertable"><tr><td>-->
+                <input class="button1" type="button" [routerLink]="['../transactions']" value="Not Now">
+                <input class="button1" type="button" (click)="saveTransactions()" value="Freeze">
+                <!--</td></tr></table>-->
+            </td>
+        </tr>
+        <!--<tr><td colspan="5">{{transactions}} </td></tr>-->
+    </table>
+
+</div>

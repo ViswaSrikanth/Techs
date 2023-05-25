@@ -1,0 +1,69 @@
+div.mainpanel-style {
+    background-color: #edeeef;
+    border: 2px;
+    border-radius: 5px;
+    text-align:left;
+    width:100%;
+    float:right;
+  }
+  h3.heading-style{
+    vertical-align: top;
+  
+  }
+
+  .innertable {
+    font-family: arial, sans-serif;
+    border-collapse: none;
+    border: 1px solid black;
+    width: 100%;
+    padding: 8px;
+    text-align: right;
+}
+  
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    background-color: #b0b4ba;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 4px;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #dddddd;
+  }
+
+  tr td input[type=text] {
+      width: 100%;
+      padding: 8px 10px;
+      margin: 4px 0;
+      box-sizing: border-box;
+  }
+
+  select {
+      width: 100%;
+      padding: 8px 10px;
+      margin: 4px 0;
+      box-sizing: border-box;
+  }
+/*
+  tr td input[type=button] {    
+    padding: 8px 10px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}*/
+.button1 {
+    background-color: #008CBA;
+    font-size: 16px;
+    border-radius: 8px;
+} /* Blue */

@@ -1,0 +1,23 @@
+<div class="mainpanel-style">
+    <h3 class="heading  -style"> {{ subtitle }} </h3>
+    <table >
+        <tr>
+            <th>Account</th>
+            <th>Description</th>
+            <th>Balance</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><input class="" type="text" id="account"/></td>            
+            <td><textarea class="" id="account" rows="1" cols="40"></textarea></td>
+            <td> </td>
+            <td> <button class="button">Add</button></td>
+        </tr>
+        <tr *ngFor="let account of accounts">
+            <td>{{account.account}}</td>
+            <td>{{account.balance}}</td>
+            <td>{{account.description}}</td>
+            <td><button class="button">Edit</button></td>
+        </tr>
+    </table>
+</div>

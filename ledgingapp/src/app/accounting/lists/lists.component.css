@@ -1,0 +1,12 @@
+div.mainpanel-style {
+    background-color: #edeeef;
+    border: 2px;
+    border-radius: 5px;
+    text-align:left;
+    width:100%;
+    float:right;
+  }
+  h3.heading-style{
+    vertical-align: top;
+  
+  }

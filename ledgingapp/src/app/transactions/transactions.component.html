@@ -1,0 +1,20 @@
+<div class="mainpanel-style">
+<!--<h3 class="heading-style"> {{ subtitle }} </h3>-->
+<table>
+  <tr>
+    <th>Transaction ID</th>
+    <th>Transaction</th>
+    <th>From a/c</th>
+    <th>To a/c</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let transaction of transactions">
+    <td>{{transaction.id}}</td>
+    <td>{{transaction.transaction}}</td>
+    <td>{{transaction.from_acc}}</td>
+    <td>{{transaction.to_acc}}</td>
+    <td>{{transaction.description}}</td>
+  </tr>
+  <!--<tr><td colspan="5">{{transactions}} </td></tr>-->
+</table>
+</div>
